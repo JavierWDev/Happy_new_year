@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+  <link rel="stylesheet" href="build/css/app.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      background-color: hsl(234, 17%, 12%);
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      padding: 2rem 0;
+      font-size: 11px;
+      text-align: center;
+      z-index: 4000;
+      color: white;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="bg--body">
+
+  <div class="bg--stars">
+    <img src="build/img/icons/bg-stars.svg" alt="Stars Background Svg">
+  </div>
+
+  <div class="main">
+    <h1>Happy new year :D</h1>
+
+    <main class="counter">
+      <div class="timer">
+        <div class="time--box">
+          <div class="box box--superior"></div>
+          <div class="time">
+            <p id="day">--</p>
+          </div>
+          <div class="box box--inferior"></div>
+        </div>
+        <p>Days</p>
+      </div>
+
+      <div class="timer">
+        <div class="time--box">
+          <div class="box box--superior"></div>
+          <div class="time">
+            <p id="hours">--</p>
+          </div>
+          <div class="box box--inferior"></div>
+        </div>
+        <p>Hours</p>
+      </div>
+
+      <div class="timer">
+        <div class="time--box">
+          <div class="box box--superior"></div>
+          <div class="time">
+            <p id="minutes">--</p>
+          </div>
+          <div class="box box--inferior"></div>
+        </div>
+        <p>Minutes</p>
+      </div>
+
+      <div class="timer">
+        <div class="time--box">
+          <div class="box box--superior"></div>
+          <div class="time">
+            <p id="seconds">--</p>
+          </div>
+          <div class="box box--inferior"></div>
+        </div>
+        <p>Seconds</p>
+      </div>
+    </main>
+  </div>
+
+  <footer class="bg--hills">
+      <img src="build/img/icons/pattern-hills.svg" alt="Stars Background Svg">
+      <div class="footer--overlay">
+        <div class="sm__icon">
+          <img src="build/img/icons/icon-facebook.svg" alt="Facebook Icon">
+        </div>
+        <div class="sm__icon">
+          <img src="build/img/icons/icon-instagram.svg" alt="Instagram Icon">
+        </div>
+        <div class="sm__icon">
+          <img src="build/img/icons/icon-pinterest.svg" alt="Pinterest Icon">
+        </div>
+      </div>
+  </footer>
+
+  <script src="build/js/app.js"></script>
+  <script src="http://momentjs.com/downloads/moment.min.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Javier Alvarez Falquez</a>.
+  </div>
+</body>
+
+</html>
